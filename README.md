@@ -1,48 +1,56 @@
-# 📚 Online Sınav Uygulaması
+# 📚 Online Exam Application
 
-Bu proje, **TYT, AYT ve LGS** sınavları için hazırlanmış, kullanıcıların soruları çözebileceği, süre takibi yapabileceği ve sonuç ekranından detaylı analiz görebileceği bir **React tabanlı sınav uygulamasıdır**.
-
-## 🚀 Özellikler
-
-- **Sınav Seçimi**
-  - TYT (165 dk)
-  - AYT (180 dk)
-  - LGS (155 dk)
-
-- **Canlı Sayaç (Countdown Timer)**
-  - Seçilen sınava göre süre otomatik başlar
-  - Süre bitince sınav otomatik olarak sonlandırılır
-
-- **Bölümler Arası Geçiş**
-  - “Sonraki Bölüm” ve “Önceki Bölüm” butonları
-  - Bölümlerde “Yukarı Git” butonu
-
-- **Sonuç Ekranı**
-  - Her bölüm için doğru, yanlış ve boş sayıları
-  - Soruların doğru/yanlış seçenekleri
-  - Açıklamalar
-  - Sağ tarafta **Bölümler Paneli** ile direkt soru atlama
-
-- **Modern UI**
-  - Bootstrap 5 + Özel CSS stilleri
-  - Responsive tasarım
-  - Animasyonlar (buton ve ikonlar)
+This project is a **React-based exam application** designed for **TYT, AYT, and LGS** exams, allowing users to solve questions, track time, and view a detailed analysis on the results screen.
 
 ---
 
-## 🛠 Kullanılan Teknolojiler
+## 🚀 Features
+
+- **📋 Exam Selection**
+  - TYT (165 min)
+  - AYT (180 min)
+  - LGS (155 min)
+
+- **⏳ Live Countdown Timer**
+  - Automatically starts according to the selected exam
+  - Ends the exam automatically when the time is up
+
+- **🔀 Section Navigation**
+  - "Next Section" and "Previous Section" buttons
+  - "Go Up" button in each section
+
+- **📊 Results Screen**
+  - Number of correct, incorrect, and unanswered questions per section
+  - Correct/incorrect options for each question
+  - Explanations
+  - **Sections Panel** on the right for direct question navigation
+
+- **🎨 Modern UI**
+  - Bootstrap 5 + Custom CSS styles
+  - Responsive design
+  - Animated buttons and icons
+
+---
+
+## 🛠 Technologies Used
 
 - **React.js**
 - **Bootstrap 5**
-- **React Hooks (useState, useEffect, useRef)**
+- **React Hooks** (`useState`, `useEffect`, `useRef`)
 - **Custom CSS**
 - **JavaScript (ES6)**
 
 ---
 
-## 📦 Kurulum
+## 📦 Installation
 
-1. **Projeyi klonla**
+1. **Clone the project**
    ```bash
-   git clone https://github.com/kullaniciadi/proje-adi.git
-   cd proje-adi
+   git clone https://github.com/username/project-name.git
+   cd project-name
+2. **Install Dependencies**
+   ```bash
+   npm install
+3. **Run project**
+   ```bash
+   npm run dev
