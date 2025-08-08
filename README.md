@@ -50,7 +50,14 @@ This project is a **React-based exam application** designed for **TYT, AYT, and 
    cd project-name
 2. **Install Dependencies**
    ```bash
+   touch .env
+  # Example content of .env
+  VITE_GEMINI_API_KEY=your_api_key_here
+  VITE_SUPABASE_URL=your_supabase_url
+  VITE_SUPABASE_ANON_KEY=your_anon_key_here
+3. **Create .env file**
+   ```bash
    npm install
-3. **Run project**
+4. **Run project**
    ```bash
    npm run dev
